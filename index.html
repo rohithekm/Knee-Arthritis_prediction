@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Knee X-Ray</title>
+    <style>
+        body {
+            background-image: url('/static/images/background_knee.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-size: 14px;
+            color: white; /* All text color set to white */
+        }
+        h1 {
+            font-size: 40px; /* Medium font size for heading */
+            color: white; /* Heading color set to white */
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="file"], input[type="submit"] {
+            font-size: 30px; /* Medium font size for inputs */
+            padding: 20px; /* Medium button size */
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Knee X-Ray</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>

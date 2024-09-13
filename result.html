@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <style>
+        body {
+            background-image: url('/static/images/background_knee.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-size: 30px;
+            color: white; /* All text color set to white */
+        }
+        h1 {
+            font-size: 70px; /* Medium font size for heading */
+            color: white; /* Heading color set to white */
+        }
+        .result-content {
+            margin-top: 20px;
+            color: white; /* Content text color set to white */
+        }
+        a {
+            color: white; /* Link color set to white */
+            text-decoration: none; /* Remove underline */
+            display: block; /* Display as block element for full width */
+            margin-top: 20px; /* Top margin for spacing */
+        }
+    </style>
+</head>
+<body>
+    <h1>Result</h1>
+    <p class="result-content">The predicted condition is: {{ result }}</p>
+    <a href="/">Go Back</a>
+</body>
+</html>
